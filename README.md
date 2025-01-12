@@ -27,3 +27,7 @@ INSTALL
 run this stuff in this order
 
 `cd .config` (FROM ~ DIRECTORY) ~ `mkdir picom` `cp /etc/xdg/picom.conf ~/.config/picom/picom.conf` `cd picom` `nvim picom.conf` then literally copy and paste my picom.conf.
+
+
+# epik images111!! 
+<img src="desktop.png">
