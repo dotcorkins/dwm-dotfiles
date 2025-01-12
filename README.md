@@ -1,11 +1,29 @@
 # dwm-dotfiles
-colins dwm dotfiles
+colins dwm configs
 
-These are my dwm dotfiles for my arch linux dwm install, it has barely anything and is relatively simple.**This is not professtional or formatted by any means! Read this to understand how to apply them. I am also writing this from the top of my head so it may be wrong. TELL ME IF IT IS**
+*this was written at 1:50 am. It does look bad. sorry.*
+
+These are my dwm dotfiles for my arch linux dwm install, it has barely anything and is relatively simple.**This is not professional or formatted by any means! Read this to understand how to apply them. I am also writing this from the top of my head so it may be wrong. TELL ME IF IT IS**
+
+## install neovim, or vim.. please..
 
 I will cover:
+# patches
+  ***DO THIS FIRST***
+  I used uselessgaps , and while not a package i also added dwmblocks which i will go over here.
+  go to https://dwm.suckless.org/patches/uselessgap/ and save the .diff file into your dwm folder. I reccomend renaming it to something like "gaps.diff" Run `patch -p1 < gaps.diff` then `sudo make clean install` **IT IS LIKELY THERE WILL BE AN ERROR..** do not panic. run `rm config.h &&make` that should(?) fix it. (i'll run it in a VM later to see if thats true. APOLOGIES IF IT BROKE YOUR DWM!) and then run the sudo make clean install command again and reboot
 
-# 1: dwm config.h
-# : patches
+# dwm config.h
+INSTALL
+* alacritty
+* noto-fonts <br>
+
+ just copy and paste my config.h to yours. then run `sudo make clean install` and reboot
+ 
 # picom
-# nvim
+INSTALL 
+* picom
+
+run this stuff in this order
+
+`cd .config` (FROM ~ DIRECTORY) ~ `mkdir picom` `cp /etc/xdg/picom.conf ~/.config/picom/picom.conf` `cd picom` `nvim picom.conf` then literally copy and paste my picom.conf.
