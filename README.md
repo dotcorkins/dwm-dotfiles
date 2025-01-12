@@ -5,7 +5,7 @@ These are my dwm dotfiles for my arch linux dwm install, it has barely anything 
 
 I will cover:
 
-#1: dwm config.h
-#2: patches
-#picom
-#nvim
+# 1: dwm config.h
+# : patches
+# picom
+# nvim
