@@ -3,7 +3,7 @@ colins dwm configs
 
 Feel free to open an issue if you have a question!
 
-
+these colors were from one of Chris Titus Tech's dotfiles so credit to him
 
 *this was first written at 1:50 am. It does look bad. sorry.*
 
@@ -37,6 +37,8 @@ INSTALL
 run this stuff in this order
 
 `cd .config` (FROM ~ DIRECTORY) ~ `mkdir picom` `cp /etc/xdg/picom.conf ~/.config/picom/picom.conf` `cd picom` `nvim picom.conf` then literally copy and paste my picom.conf.
+
+
 
 
 # epik images111!! 
